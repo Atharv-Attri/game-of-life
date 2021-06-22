@@ -5,12 +5,12 @@ from game import GameofLife
 pygame.init()
 pygame.display.set_caption("Conway's Game of Life")
 
-WIDTH = 1280
-HEIGHT = 720
+WIDTH = 1920
+HEIGHT = 1080
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
-game = GameofLife(screen, scale=13)
+game = GameofLife(screen, scale=6)
 
 clock = pygame.time.Clock()
 fps = 60
